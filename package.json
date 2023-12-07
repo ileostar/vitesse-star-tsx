@@ -1,6 +1,7 @@
 {
   "name": "vitesse-star-tsx",
   "version": "1.0.0",
+  "type": "module",
   "description": "vite + vue3 + tsx",
   "author": "@ileostar",
   "license": "ISC",
