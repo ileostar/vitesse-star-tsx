@@ -18,7 +18,7 @@ Inspired by [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite)
 ### TODO
 
 - [x] Unocss attributify
-    - [ ] TSX warns when using attributes that a html element does not have, you should add attr declaration in _env.d.ts_
+  - [ ] TSX warns when using attributes that a html element does not have, you should add attr declaration in _env.d.ts_
 
 ## Pre-packed
 
@@ -35,7 +35,7 @@ Inspired by [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite)
 ### Plugins
 
 - [Vue Router](https://github.com/vuejs/vue-router)
-    - [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
+  - [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
 
 ## Try it now

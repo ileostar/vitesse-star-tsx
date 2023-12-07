@@ -2,7 +2,7 @@ import { defineComponent, ref, withModifiers } from 'vue'
 
 export default defineComponent({
   props: {
-    initValue: Number,
+    initValue: Number
   },
   setup(props) {
     const count = ref(props.initValue || 0)
@@ -11,11 +11,7 @@ export default defineComponent({
       count.value++
     }
     return () => (
-      <button
-        onClick={withModifiers(inc, ['self'])}
-      >
-        count value is: {count.value}
-      </button>
+      <button onClick={withModifiers(inc, ['self'])}>count value is: {count.value}</button>
     )
-  },
+  }
 })

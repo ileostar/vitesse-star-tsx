@@ -4,11 +4,11 @@ import { createRouter, createWebHistory } from 'vue-router'
 import App from './App'
 import 'uno.css'
 
-import routes from '~pages'
+import routes from 'virtual:generated-pages'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes,
+  routes
 })
 
 const app = createApp(App)
