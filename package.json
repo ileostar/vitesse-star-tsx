@@ -1,9 +1,10 @@
 {
   "name": "vitesse-star-tsx",
   "version": "1.0.0",
-  "description": "",
+  "description": "vite + vue3 + tsx",
   "author": "@ileostar",
   "license": "ISC",
+  "packageManager": "pnpm@8.11.0",
   "keywords": [
     "vite",
     "vue",
